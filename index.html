@@ -6,11 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pempek Nobico</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
 <body>
     <header>
         <div class="jumbotron">
             <h1>PEMPEK NOBICO</h1>
+            <div class="flex-container container">
+                <img src="assets/img/pempek.png" alt="" style="width: 250px;">
+                <p class="p-header">X</p>
+                <img src="assets/img/dicoding.png" alt="" style="width: 200px;">
+            </div>
         </div>
         <nav>
             <ul>
@@ -19,9 +25,9 @@
                 <div class="dropdown">
                     <button onclick="myFunction()" class="dropbtn">Jenis Pempek</button>
                     <div id="myDropdown" class="dropdown-content">
-                        <a href="#home">Pempek Kapal Selam</a>
-                        <a href="#about">Pempek Lenggang</a>
-                        <a href="#contact">Pempek Iwak Betok</a>
+                        <a href="#kapal-selam">Pempek Kapal Selam</a>
+                        <a href="#lenggang">Pempek Lenggang</a>
+                        <a href="#lenjer">Pempek Lenjer</a>
                     </div>
                 </div>
             </ul>
@@ -34,30 +40,45 @@
                 <article>
                     <img src="https://img.okezone.com/content/2020/12/03/298/2321042/resep-pempek-dos-udang-rebon-rasanya-jos-n1FGhLyt0x.jpg" alt="sejarah" class="sejarah">
                     <h2>Sejarah Pempek Nobico</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex minima totam eaque veritatis explicabo consectetur nostrum voluptatibus incidunt beatae voluptates sit doloribus deserunt error alias, atque earum laborum officiis, soluta nulla adipisci maiores placeat accusantium quia? Asperiores doloremque minima itaque commodi, totam voluptatem eius, fuga animi non maiores nisi blanditiis.</p>
+                    <p style="text-indent: 50px;">Awal mula perjalanan pempek Nobico dimulai pada tahun 2016, berjualan dengan gerobak di pasar daerah Palembang. 2018 Pempek Nobico mulai membuka outlet dan berpartisipasi pada bazaar di mall-mall Palembang dan mendapat respon positif karena kualitas bahan dan rasa pempek yang otentik. 2022 memperluas pasar karena semakin di gemari dengan membuka outlet di beberapa kota besar lainnya. Menjalin kerjasama bersama mitra dan terus berkembang hingga saat ini.</p>
                 </article>
             </section>
             <section class="card">
                 <article>
                     <img src="https://img.okezone.com/content/2020/12/03/298/2321042/resep-pempek-dos-udang-rebon-rasanya-jos-n1FGhLyt0x.jpg" alt="sejarah" class="sejarah">
-                    <h2>Sejarah Pempek Nobico</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex minima totam eaque veritatis explicabo consectetur nostrum voluptatibus incidunt beatae voluptates sit doloribus deserunt error alias, atque earum laborum officiis, soluta nulla adipisci maiores placeat accusantium quia? Asperiores doloremque minima itaque commodi, totam voluptatem eius, fuga animi non maiores nisi blanditiis.</p>
+                    <h2>Visi & Misi Pempek Nobico</h2>
+                    <ul>
+                        <li>Visi</li>
+                        <p>Melestarikan pempek sebagai makanan warisan nusantara yang dapat menembus pasar internasional dengan kualitas dan cita rasa oriental.</p>
+
+                        <li>Misi</li>
+                        <p>
+                            <ol>
+                                <li>Cita Rasa Otentik</li>
+                                <li>Produk Bahan Unggulan</li>
+                                <li>Warisan Nusantara</li>
+                            </ol>
+                        </p>
+                    </ul>
                 </article>
             </section>
             <section class="card">
                 <article>
                     <div class="flex-container">
-                        <div class="flex-item polaroid">
-                            <img src="https://img.okezone.com/content/2020/12/03/298/2321042/resep-pempek-dos-udang-rebon-rasanya-jos-n1FGhLyt0x.jpg" style="width: 100%;" alt="">
+                        <div class="flex-item polaroid" id="kapal-selam">
+                            <img src="assets/img/kapal_selam.jpeg" style="width: 75%;" alt="">
                             <div class="container">Pempek Kapal Selam</div>
+                            <p style="font-size: 25px;">Rp. 15.000</p>
                         </div>
-                        <div class="flex-item polaroid">
-                            <img src="https://img.okezone.com/content/2020/12/03/298/2321042/resep-pempek-dos-udang-rebon-rasanya-jos-n1FGhLyt0x.jpg" style="width: 100%;" alt="">
-                            <div class="container">Pempek Kapal Selam</div>
+                        <div class="flex-item polaroid" id="lenggang">
+                            <img src="assets/img/lenggang.jpg" style="width: 75%;" alt="">
+                            <div class="container">Pempek Lenggang</div>
+                            <p style="font-size: 25px;">Rp. 10.000</p>
                         </div>
-                        <div class="flex-item polaroid">
-                            <img src="https://img.okezone.com/content/2020/12/03/298/2321042/resep-pempek-dos-udang-rebon-rasanya-jos-n1FGhLyt0x.jpg" style="width: 100%;" alt="">
-                            <div class="container">Pempek Kapal Selam</div>
+                        <div class="flex-item polaroid" id="lenjer">
+                            <img src="assets/img/lenjer.jpg" style="width: 75%;" alt="">
+                            <div class="container">Pempek Lenjer</div>
+                            <p style="font-size: 25px;">Rp. 12.000</p>
                         </div>
                     </div>
                 </article>
@@ -71,7 +92,6 @@
                         <h2 class="owner">Owner Pempek Nobico</h2>
                         <figure>
                             <img class="featured-image" src="https://cv-fadliaditama.netlify.app/img/fadli2.jpg">
-                            <!-- <figcaption class="p1">Lambang</figcaption> -->
                         </figure>
                         <p class="owner">Acmad Fadli Aditama</p>
                         <p class="p-owner">Seorang Web Developer dan senang bergelut di dunia Front End Developer. Saat ini saya sedang mengembangkan usaha bisnis Pempek Nobico dan disponsori oleh Dicoding.</p>
@@ -79,8 +99,22 @@
                 </article>
             </aside>
         </div>
-        
     </main>
+
+    <footer>
+        <div class="flex-container">
+            <div class="flex-item">
+                <h3>Lokasi</h3>
+                <h6>Palembang, Sumatera Selatan</h6>
+            </div>
+            <div class="flex-item">
+                <h3>Media Sosial</h3>
+                <a href="https://www.facebook.com/dicoding" class="sosmed" target="_blank"><i class="fa-brands fa-facebook-square"></i></a>
+                <a href="https://www.instagram.com/dicoding/" target="_blank" class="sosmed"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.dicoding.com/" class="sosmed" target="_blank"><i class="fa-solid fa-earth-asia"></i></a>
+            </div>
+        </div>
+    </footer>
     <script src="assets/js/pempek.js"></script>
 </body>
 </html>

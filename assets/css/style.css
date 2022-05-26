@@ -46,7 +46,8 @@ body{
    float: left;
    width: 200px;
    padding-right: 30px;
-   padding-bottom: 30px;
+   margin-right: 50px;
+   margin-bottom: 70px;
 }
 
 aside {
@@ -139,10 +140,8 @@ main {
 }
 
 .flex-item {
-  background-color: #f1f1f1;
   padding: 10px;
   flex: 50%;
-  border-style: solid;
 }
 
 @media (max-width: 800px) {
@@ -162,3 +161,34 @@ div.container {
   text-align: center;
   padding: 10px 20px;
 }
+
+.p-header{
+  padding-right: 20px;
+}
+
+footer{
+  background-color: #0A1D37;
+  padding-top: 30px;
+  padding-down: 30px;
+  padding-right: 20px;
+  padding-left: 20px;
+  color: white;
+}
+
+.sosmed{
+  text-decoration: none;
+  color: white;
+}
+
+ol.a{
+  list-style-position: inside;
+}
+
+ul.b{
+  list-style-position: inside;
+}
+
+.container{
+  height: 100px;
+}
+
